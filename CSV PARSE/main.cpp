@@ -41,6 +41,7 @@ MyStruct read_csv_file(const std::string& file_name) {
                     break;
                 case 7:
                     my_struct.col8.push_back(cell);
+                    break;
                 case 8:
                     my_struct.col9.push_back(cell);
                     break;
