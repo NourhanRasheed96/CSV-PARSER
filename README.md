@@ -19,6 +19,3 @@ This program requires the following libraries:
 - '**sstream**': For parsing strings.
 - '**string**': For string manipulation.
 - '**vector**': For dynamic arrays.
-
-## License
-This program is licensed under the MIT License. See the LICENSE file for more details.
