@@ -72,7 +72,7 @@ int main() {
     // write the data to a new CSV file "The desired output to the UI"
     std::ofstream outfile("out2.csv");
     if (outfile) {
-        outfile << "HW_LATENCY,OS_TICK,periodicity,priority,requiredResponseTime,executionTime,name,type,category" << std::endl;
+        outfile << "HW_LATENCY,OS_TICK,name,periodicity,priority,requiredResponseTime,executionTime,type,category" << std::endl;
         for (size_t i = 0; i < my_struct.col1.size(); i++) {
             outfile << my_struct.col1[i] << "," << my_struct.col2[i] << "," << my_struct.col3[i] << ","
                     << my_struct.col4[i] << "," << my_struct.col5[i] << "," << my_struct.col6[i] << ","
